@@ -1,3 +1,3 @@
-#Desafío Blog Barber Shop
-##Sass
-##BEM
+# Desafío Blog Barber Shop
+## Sass
+## BEM
