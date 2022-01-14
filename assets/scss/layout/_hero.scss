@@ -1,0 +1,33 @@
+.blog-hero{
+    background-image: url(../img/post-image.jpg);
+    background-position: center;
+    height: 640px;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width: 768px){
+        background-size: cover;
+    }
+    &__tittle{
+        color: $color-white;
+        font-size: $fz-xx-large;
+        font-family: $ff-playfair-black;
+        opacity: 1;
+        line-height: 60px;
+        width: 80%;
+        margin: auto;
+        @media screen and (min-width: 768px){
+            font-size: $fz-xxx-large;
+            width: 50%;
+            line-height: 94px;
+        }
+    }
+    &__icon{
+        color: $color-white;
+    }
+
+}

@@ -1,0 +1,9 @@
+.blog-nav {
+  background-color: $color-eerie-black;
+  &__navbar-nav &__nav-link {
+    color: $color-white;
+  }
+  &__nav-link-active {
+    color: $color-spanish-pink;
+  }
+}

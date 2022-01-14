@@ -1,0 +1,28 @@
+.blog-content{
+    display: flex;
+    flex-direction: column;
+    font-size: $fz-x-medium;
+    color: $color-raisin-black;
+    font-weight: 300;
+    width: 90%;
+    line-height: 40px;
+    letter-spacing: 0.56px;
+    text-align: left;
+    @media screen and (min-width: 768px){
+        line-height: 45px;  
+    }
+
+    &__date{
+        font-family: 'Playfair Display', serif;;
+        margin: 47px 0;
+    }
+
+    &__btn{
+        margin: 54px auto;
+        @media screen and (min-width: 768px){
+            margin: 95px 0;
+        }
+    }
+   
+    
+}

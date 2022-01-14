@@ -1,0 +1,22 @@
+.btn-normal-state{
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    opacity: 1;
+    background-color: $color-nickel;
+    color: $color-white;
+    letter-spacing: 0.56px;
+    font-size: $fz-medium;
+    padding: 14px 13px 16px 14px;
+    text-decoration: none;
+    &:focus{
+        border: 3px solid $color-light-gray;
+        color: $color-white;
+    }
+    &:hover{
+        background-color: $color-light-gray;
+        color: $color-white;
+    }
+}

@@ -1,9 +1,27 @@
 //  Color Scheme
 $color-white:#fff;
+$color-gray: #707070;
+$color-other-gray: #1216191A;
 $color-platinum: #6E7E7E;
-$color_light-gray: #D1D1D1;
-$color_erie-black: #121619;
+$color-light-gray: #D1D1D1;
+$color-fuzzy-wuzzy: #E56353;
+$color-ruddy-pink: #D76C69;
+$color-spanish-pink:#ECBCBA;
+$color-eerie-black: #121619;
+$color-raisin-black: #222323;
+$color-nickel: #6C6E70;
 
 // Font Size
-$fz-xx-large: 70px;
+$fz-xxx-large: 70px;
+$fz-xx-large: 40px;
 $fz-x-large: 30px;
+$fz-large: 18px;
+$fz-x-medium: 16px;
+$fz-medium:14px;
+$fz-small:12px;
+
+// Font Family weight
+$ff-playfair-regular: italic 'Playfair Display', serif 400;
+$ff-playfair-black: 'Playfair Display', serif 800;
+$ff-roboto-ligth: 'Roboto', sans-serif, 300;
+$ff-robot-regular: 'Roboto', sans-serif, 400;

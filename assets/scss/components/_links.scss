@@ -1,0 +1,18 @@
+.a-primary-scheme{
+    color: $color-ruddy-pink;
+    &:hover{
+        color: $color-raisin-black;
+    }
+}
+.a-secundary-scheme{
+    color: $color-raisin-black;
+}
+.a-ligth-scheme{
+    color: $color-light-gray;
+}
+.a-dark-scheme{
+    color: $color-eerie-black;
+}
+.a-desactive-state{
+    color: $color-platinum;
+}
